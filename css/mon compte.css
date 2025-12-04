@@ -1,0 +1,70 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Dégradé style Game Freak */
+body {
+    font-family: "Arial", sans-serif;
+    background: linear-gradient(135deg, #8ba3e8, #98e0d2);
+    color: #000;
+    min-height: 100vh;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 40px;
+}
+
+.logo {
+    width: 250px;
+    height: 50px;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+/* TITRE PRINCIPAL */
+main {
+    padding: 40px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+}
+
+/* TITRES DES SECTIONS */
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* BLOC VIDE STYLE CARTE */
+.bloc {
+    width: 100%;
+    height: 80px;
+    border: 2px solid rgba(0,0,0,0.4);
+    border-radius: 4px;
+    margin-bottom: 40px;
+    background-color: rgba(255,255,255,0.2);
+}
+
+footer {
+    text-align: left;
+    padding: 40px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+
