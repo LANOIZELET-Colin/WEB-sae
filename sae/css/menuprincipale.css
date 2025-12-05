@@ -1,4 +1,4 @@
-/* ---- Style général ---- */
+
 body {
     font-family: Arial, sans-serif;
     background: linear-gradient(135deg, #8ba3e8, #98e0d2);
@@ -9,9 +9,6 @@ body {
     justify-content: space-between;
 }
 
-/* ---- Header ---- */
-
-
 .logo {
     width: 40%;
     max-width: 350px;
@@ -20,7 +17,6 @@ body {
     position: fixed;
 }
 
-/* ---- Menu centré ---- */
 main {
     display: flex;
     justify-content: center;
@@ -43,7 +39,7 @@ nav ul li a {
     transition: opacity 0.3s;
 }
 
-/* ---- Footer ---- */
+
 footer {
     text-align: left;
     padding: 40px;
