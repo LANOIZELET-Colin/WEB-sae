@@ -21,11 +21,13 @@ input{
     margin: 7px;
 }
 
+
+
 /* Filtres */
 .filtres {
   width: 300px;
   max-width: 400px;
-  background-color: white;
+  background: linear-gradient(40deg, rgb(225, 223, 223), rgb(205, 240, 247));
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.2);
@@ -81,8 +83,10 @@ datalist>option{
 }
 
 .input{
+  border: solid 0.5px rgb(216, 193, 239);
   display: block;
   margin: 10px auto;
+  background-color: #f4f9fa;
 }
 
 #fichier{
@@ -101,5 +105,24 @@ datalist>option{
 #nombre{
   margin-bottom: 30px;
 }
+
+div{
+  display: flex;
+  justify-content: center;
+}
+
+button{
+  padding: 20px;
+  background-color: cornflowerblue;
+  border: #aaa;
+  border-radius: 30px;
+  margin-top: 40px;
+}
+
+button:hover{
+  background-color: rgb(55, 106, 195);
+  transform: scale(1.2);
+}
+
 
 
