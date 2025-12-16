@@ -1,0 +1,147 @@
+
+/* ------------------------------------------------
+
+CSS PAGE UNE 
+
+------------------------------------------------ */
+
+/*logo game freak */
+header{
+    animation: intro 2s ease-out;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* titre de la page */
+body>h1{
+    display: flex;
+    justify-content: center;
+    font-size: 300%;
+    margin-top: 300px;
+    margin-bottom: 350px;
+    animation:intro 2s ease-out;
+    position: relative;
+    z-index: 2;
+}
+
+
+/* image ronde une */
+.imgronde:nth-child(1){
+    background-image: url(../img/covoiturage.jpg);
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* image ronde deux */
+.imgronde:nth-child(2){
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-image: url("../img/imagesacha.htm");
+  background-repeat: no-repeat;
+  background-size:180%;
+  background-position: center;
+  margin-top: 50px;
+}
+
+/* image ronde trois */
+.imgronde1{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    margin-top: 30px;
+    background-image: url(../img/ttpokemon.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+/* ancre */
+.block { 
+    scroll-snap-align: center; /* ancre */
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+/* image ronde + paragraphe */
+.bloc{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding: 10% 15% 10% 15%; 
+}
+
+/* troisieme paragraphe explicatif de la page 1 */
+section:nth-of-type(2) p{   
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    font-size: 40px;
+    line-height: 2;
+    text-align: center;
+}
+
+/* deuxieme paragraphe explicatif de la page 1 */
+section:nth-of-type(3) p{  
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    font-size: 30px;
+    line-height: 2;
+    text-align: center;
+}
+
+/* troisieme paragraphe explicatif de la page 1 */
+section:nth-of-type(4) p{   
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    font-size: 35px;
+    line-height:2;
+    text-align:center;
+}
+
+/* image de fond du site */
+body{
+    background-color: rgb(247, 249, 250);
+}
+
+/* tansition scroll */
+html, body {
+    scroll-snap-type: y mandatory; /* transition scroll */
+    font-family: Arial, sans-serif; 
+}
+
+/* animations */
+@keyframes intro {
+    from { opacity: 0; transform: scale(0.7); }
+    to   { opacity: 1; transform: scale(1); }   
+}
+
+
+footer{
+    scroll-snap-align: end; /* ancre */
+    margin-top: 70px;
+}
+
+
+
+.imagepersopokemon{
+    width: 200px;
+    height: 500px;
+}
+
+
+
+
+
