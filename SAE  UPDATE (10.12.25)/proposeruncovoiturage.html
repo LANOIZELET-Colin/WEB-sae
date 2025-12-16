@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Recherche covoiturage</title>
+  <link rel="stylesheet" href="css/proposeruncovoiturage.css">
+  <link rel="stylesheet" href="css/logoetmenu.css">
+  <link rel="stylesheet" href="css/bubule.css">
+</head>
+<header>
+	<img class="logonoir" src="img/logoGameFreak.png" />  <!-- image logo game freak-->
+	<a class="menu-button" href="menuprincipal.html">
+      <span></span>
+    </a>
+</header>
+<body>
+    <h1>Proposer un covoiturage</h1>
+    <form action="menuprincipal.html">
+      <main>
+      <!--filtre-->
+      <aside class="filtres">
+        <h2>Trajet</h2>
+        <label for="temps" class="label">Heure de départ</label>
+        <input type="time" id="temps" class="input" title="Entré votre heure de départ" required>
+      
+        <label for="temps" class="label">Heure d'arriver</label>
+        <input type="time" id="temps" class="input" title="Entré votre heure d'arriver" required>
+        
+        <label for="date" class="label">Date du trajet</label>
+        <input id="date" class="input" type="date" title="Entré la date de votre trajet" required>
+      
+        <select>
+          <option>Mettre un trajet</option>
+          <option>Quotidien</option>
+          <option>hebdomadaire</option>
+          <option>Un seul trajet</option>
+        </select>
+      </aside>
+      <aside class="filtres" id="f1">
+        <h2>Ajouter des détails</h2>
+        <section class="zonetext">
+          <textarea placeholder="Ajouter des descriptions du véhicule ainsi que des précisions si besoin"></textarea>
+        </section>
+      </aside>
+      
+      <aside class="filtres">
+        <h2>Liste des jours que vous voulez mettre ( si plusieurs trajets )</h2>
+        <label class="labellistedesjours"><input type="checkbox">Lundi</label>
+        <label class="labellistedesjours"><input type="checkbox">Mardi</label>
+        <label class="labellistedesjours"><input type="checkbox">Mercredi</label>
+        <label class="labellistedesjours"><input type="checkbox">Jeudi</label>
+        <label class="labellistedesjours"><input type="checkbox">Vendredi</label>
+        <label class="labellistedesjours"><input type="checkbox">Samedi</label>
+        <label class="labellistedesjours"><input type="checkbox">Dimanche</label>
+      </aside>
+      <aside class="filtres">
+        <h2>Lieux</h2>
+          <label for="villedepart" class="label">Ville de départ</label>
+          <input list="villes" id="villedepart"  class="input" placeholder="Rechercher une ville" required>
+          <datalist id="villes">
+            <option value="Paris"></option>
+            <option value="Lyon"></option>
+            <option value="Marseille"></option>
+            <option value="Dijon"></option>
+            <option value="Toulouse"></option>
+            <option value="Lille"></option>
+            <option value="Comines"></option>
+          </datalist> 
+  
+          <label for="villearriver" class="label">Ville d'arriver</label>
+          <input list="villes" id="villearriver" class="input" placeholder="Rechercher une ville">
+          <datalist id="villes">
+            <option value="Paris"></option>
+            <option value="Lyon"></option>
+            <option value="Marseille"></option>
+            <option value="Dijon"></option>
+            <option value="Toulouse"></option>
+            <option value="Lille"></option>
+          </datalist>
+      </aside>
+      <aside class="filtres">
+        <h2>Informations du véhicule</h2>
+        <label class="label">Nombres de places disponibles</label>
+        <input class="input" type="number" max="7" min="0" id="nombre">
+        <label class="label">Image du véhicules</label>
+        <input class="label" id="fichier" type="file">
+      </aside>
+
+    </main>
+    <button type="submit">Proposer un covoiturage</button>
+    </form>
+  <figure class="bubule-a" id="bubu"></figure>
+	<figure class="bubule-b" id="bubu"></figure>
+	<figure class="bubule-c" id="bubu"></figure>
+	<figure class="bubule-d" id="bubu"></figure>
+	<figure class="bubule-e" id="bubu"></figure>
+	<figure class="bubule-f" id="bubu"></figure>
+	<figure class="bubule-g" id="bubu"></figure>
+	<figure class="bubule-h" id="bubu"></figure>
+	<figure class="bubule-i" id="bubu"></figure>
+	<figure class="bubule-j" id="bubu"></figure>
+	<figure class="bubule-k" id="bubu"></figure>
+	<figure class="bubule-m" id="bubu"></figure>
+	<figure class="bubule-n" id="bubu"></figure>
+	<figure class="bubule-o" id="bubu"></figure>
+	<figure class="bubule-p" id="bubu"></figure>
+</body>
+<footer>
+    <a>© GAME FREAK inc. All Rights Reserved.</a>
+</footer>
+</html>
