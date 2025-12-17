@@ -13,10 +13,10 @@
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  position: fixed;
-  top: 550px;
+  position: fixed;  
+  top: 650px;
   left: 300px;
-  background: linear-gradient(45deg, rgba(56, 189, 237, 0.662), rgb(32, 199, 255));
+  background: linear-gradient(45deg, rgb(255, 34, 34), rgb(239, 24, 24));
   animation: bubule 0.7s ease-out, bubule1 12s infinite;     
 }
 
@@ -37,18 +37,139 @@
   position: fixed;
   top: 150px;
   left: 460px;
-  background: linear-gradient(45deg, rgba(179, 232, 65, 0.711), rgb(234, 255, 0));
+  background: linear-gradient(45deg, rgb(179, 232, 65), rgb(234, 255, 0));
   animation: bubule 0.7s ease, bubule2 16s infinite;     
 }
 .bubule-e{
-  width: 20px;
-  height: 20px;
+  width:27px;
+  height: 27px;
   border-radius: 50%;
   position: fixed;
   top: 210px;
   left: 340px;
-  background: linear-gradient(45deg, rgba(179, 232, 65, 0.711), rgb(234, 255, 0));
+  background: linear-gradient(45deg, rgb(179, 232, 65), rgb(234, 255, 0));
   animation: bubule 0.7s ease, bubule2 16s infinite;     
+}
+
+.bubule-f{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  position: fixed;
+  top: 280px;
+  left: 550px;
+  background: linear-gradient(120deg, rgba(221, 65, 232, 0.711), rgb(255, 0, 238));
+  animation: bubule 0.7s ease, bubule2 16s infinite;     
+}
+
+.bubule-g{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 120px;
+  left: 550px;
+  background: linear-gradient(90deg, #2d62e9, #0842f2);
+  animation: bubule 0.7s ease, bubule1 10s infinite;
+}
+
+.bubule-h{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 80px;
+  left: 180px;
+  background: linear-gradient(45deg, #0daaff, #d9f3ff);
+  animation: bubule 0.7s ease, bubule2 15s infinite;
+}
+
+.bubule-i{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: fixed;
+  top: 180px;
+  left: 1200px;
+  background: linear-gradient(45deg, #48f13c, #00ff11);
+  animation: bubule 0.7s ease, bubule2 18s infinite;
+}
+
+.bubule-j{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: fixed;
+  top: 400px;
+  left: 900px;
+  background: linear-gradient(45deg, #2bde55, #11ff00);
+  animation: bubule 0.7s ease, bubule3 12s infinite;
+}
+
+.bubule-k{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: fixed;
+  top: 250px;
+  left: 950px;
+  background: linear-gradient(45deg, #ff4894, #f40464);
+  animation: bubule 0.7s ease, bubule4 20s infinite;
+}
+
+.bubule-l{
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  position: fixed;
+  top: 50px;
+  left: 50px;
+  background: linear-gradient(45deg, #3adcce, #00fbff);
+  animation: bubule 0.7s ease, bubule1 21s infinite;
+}
+
+.bubule-m{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: fixed;
+  top: 420px;
+  left: 520px;
+  background: linear-gradient(45deg, #ccfff2, #eafffa);
+  animation: bubule 0.7s ease, bubule2 22s infinite;
+}
+
+.bubule-n{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: fixed;
+  top: 260px;
+  left: 480px;
+  background: linear-gradient(45deg, #ffe0cc, #fff2e6);
+  animation: bubule 0.7s ease, bubule2 23s infinite;
+}
+
+.bubule-o{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: fixed;
+  top: 340px;
+  left: 700px;
+  background: linear-gradient(45deg, #e0ffcc, #f4ffe6);
+  animation: bubule 0.7s ease, bubule2 24s infinite;
+}
+
+.bubule-p{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: fixed;
+  top: 380px;
+  left: 600px;
+  background: linear-gradient(45deg, #ccf2ff, #e6faff);
+  animation: bubule 0.7s ease, bubule2 25s infinite;
 }
 
 #bubu{
@@ -67,7 +188,7 @@
 
 @keyframes bubule {
     from{ top: 50%; left: 50%; z-index: 1;}
-    to {z-index: 0; }
+    to {z-index: 1;}
 }
 
 @keyframes bubule1 {
@@ -100,6 +221,18 @@
     }   
     50%{
         transform: translateY(-120px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+@keyframes bubule4 {
+    0% {
+        transform: translateY(0);
+    }   
+    50%{
+        transform: translateY(120px);
     }
     100%{
         transform: translateY(0);
