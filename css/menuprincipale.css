@@ -37,3 +37,17 @@ nav ul li a {
     display: inline-block;
     padding: 15px;
 }
+
+.site{
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    bottom: 5%;
+    right: 5%;
+    gap: 15px;
+}
+
+footer a{
+    text-decoration: none;
+    color: azure;
+}

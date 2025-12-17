@@ -18,51 +18,38 @@
 <form action="rechercheuncovoiturage2.html">
   <aside class="filtres">
     <h2>Filtres :</h2>
-    <select>
-      <option>Heure de départ</option>
-      <option>-8h</option>
-      <option>9h</option>
-      <option>10h</option>
-      <option>11h</option>
-      <option>12h</option>
-      <option>13h</option>
-      <option>14h</option>
-      <option>15h</option>
-      <option>16h</option>
-      <option>17h</option>
-      <option>18h</option>
-      <option>18h</option>
-      <option>19h</option>
-      <option>20h</option>
-      <option>+21h</option>
-    </select>
-
-    <select>
-      <option>Lieu de départ</option>
-      <option>Paris</option>
-      <option>Lyon</option>
-      <option>Marseille</option>
-      <option>Dijon</option>
-      <option>Lille</option>
-      <option>Toulouse</option>
-      <option>Nantes</option>
-      <option>Dunkerque</option>
-      <option>Nice</option>
-    </select>
-    <select>
-      <option>Prix</option>
-      <option>Le moins chères</option>
-      <option>Le plus chères</option>
-    </select>
-    <select>
-      <option>Durée</option>
-      <option>Le moins cour</option>
-      <option>Le plus long</option>
-    </select>
-    <label class="date">
-    <span>Date de départ</span>
-    <input type="date">
-</label>
+    <label for="temps" class="label">Heure de départ</label>
+        <input type="time" id="temps" class="input" title="Entré votre heure de départ" required>
+      
+        <label for="temps" class="label">Heure d'arriver</label>
+        <input type="time" id="temps" class="input" title="Entré votre heure d'arriver" required>
+        
+        <label for="date" class="label">Date du trajet</label>
+        <input id="date" class="input" type="date" title="Entré la date de votre trajet" required>
+      
+    </label>
+    <label for="villedepart" class="label">Ville de départ</label>
+          <input list="villes" id="villedepart"  class="input" placeholder="Rechercher une ville" required>
+          <datalist id="villes">
+            <option value="Paris"></option>
+            <option value="Lyon"></option>
+            <option value="Marseille"></option>
+            <option value="Dijon"></option>
+            <option value="Toulouse"></option>
+            <option value="Lille"></option>
+            <option value="Comines"></option>
+          </datalist> 
+  
+          <label for="villearriver" class="label">Ville d'arriver</label>
+          <input list="villes" id="villearriver" class="input" placeholder="Rechercher une ville">
+          <datalist id="villes">
+            <option value="Paris"></option>
+            <option value="Lyon"></option>
+            <option value="Marseille"></option>
+            <option value="Dijon"></option>
+            <option value="Toulouse"></option>
+            <option value="Lille"></option>
+          </datalist>
     <button class="bouton">Se connecter</button>
   </aside>
   </form>

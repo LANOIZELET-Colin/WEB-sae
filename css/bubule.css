@@ -14,7 +14,7 @@
   height: 15px;
   border-radius: 50%;
   position: fixed;  
-  top: 490px;
+  top: 570px;
   left: 10px;
   background: linear-gradient(45deg, rgb(255, 34, 34), rgb(239, 24, 24));
   animation: bubule 0.7s ease-out, bubule1 12s infinite;     
@@ -67,7 +67,7 @@
   height: 20px;
   border-radius: 50%;
   position: fixed;
-  top: 620px;
+  top: 600px;
   left: 550px;
   background: linear-gradient(90deg, #2d62e9, #0842f2);
   animation: bubule 0.7s ease, bubule1 10s infinite;
@@ -78,7 +78,7 @@
   height: 25px;
   border-radius: 50%;
   position: fixed;
-  top: 610px;
+  top: 460px;
   left: 180px;
   background: linear-gradient(45deg, #0daaff, #0048ff);
   animation: bubule 0.7s ease, bubule2 15s infinite;
@@ -140,14 +140,14 @@
 }
 
 .bubule-n{
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
   border-radius: 50%;
   position: fixed;
   top: 350px;
-  left: 730px;
+  left: 1100px;
   background: linear-gradient(45deg, #c72be6, #ff00b3);
-  animation: bubule 0.7s ease, bubule4 12s infinite;
+  animation: bubule 0.7s ease, bubule4 18s infinite;
 }
 
 .bubule-o{
@@ -172,16 +172,7 @@
   animation: bubule 0.7s ease, bubule4 17s infinite;
 }
 
-.bubule-q{
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  position: fixed;
-  top: 550px;
-  left: 800px;
-  background: linear-gradient(45deg, #ef3d3d, #ff0000);
-  animation: bubule 0.7s ease, bubule4 14s infinite;
-}
+
 
 #bubu{
     z-index: -1;

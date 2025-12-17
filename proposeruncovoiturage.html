@@ -15,7 +15,7 @@
 </header>
 <body>
     <h1>Proposer un covoiturage</h1>
-    <form action="menuprincipal.html">
+    <form action="mon compte.html">
       <main>
       <!--filtre-->
       <aside class="filtres">
@@ -30,10 +30,9 @@
         <input id="date" class="input" type="date" title="Entré la date de votre trajet" required>
       
         <select>
-          <option>Mettre un trajet</option>
+          <option>Si plusieurs trajets</option>
           <option>Quotidien</option>
           <option>hebdomadaire</option>
-          <option>Un seul trajet</option>
         </select>
       </aside>
       <aside class="filtres" id="f1">
@@ -81,9 +80,9 @@
       <aside class="filtres">
         <h2>Informations du véhicule</h2>
         <label class="label">Nombres de places disponibles</label>
-        <input class="input" type="number" max="7" min="0" id="nombre">
+        <input class="input" type="number" max="7" min="0" id="nombre" required>
         <label class="label">Image du véhicules</label>
-        <input class="label" id="fichier" type="file">
+        <input class="label" id="fichier" type="file" required>
       </aside>
 
     </main>
@@ -108,6 +107,6 @@
 	<figure class="bubule-p" id="bubu"></figure>
 </body>
 <footer>
-    <a>© GAME FREAK inc. All Rights Reserved.</a>
+    <a class="gamefreak">© GAME FREAK inc. All Rights Reserved.</a>
 </footer>
 </html>
