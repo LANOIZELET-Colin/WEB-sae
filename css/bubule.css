@@ -100,8 +100,8 @@
   height: 30px;
   border-radius: 50%;
   position: fixed;
-  top: 400px;
-  left: 900px;
+  top: 350px;
+  left: 800px;
   background: linear-gradient(45deg, #2bde55, #11ff00);
   animation: bubule 0.7s ease, bubule3 12s infinite;
 }
