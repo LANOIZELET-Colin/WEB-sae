@@ -5,10 +5,10 @@ body{
 }
 
 .filtres {
-  margin-left: 20px;
-  position: fixed;
+  margin-left: 2%;
+  position: absolute;
   width: 20%;
-  min-width: 150px;
+  min-width: 200px;
   max-width: 250px;
   background-color: rgb(179, 229, 239);
   padding: 30px;
@@ -57,12 +57,12 @@ h1{
   flex-wrap: wrap;
   justify-content: center;  
   gap: 50px;
-  margin-left: 270px;
-  margin-top: 40px;
+  margin-top: 3%;
+  margin-left: 20%;
 }
 
 .recherche {
-  width: 260px;
+  width: 20%;
   height: fit-content;
   background: linear-gradient(145deg, #cdcccc, #a6dbdd);
   border-radius: 22px;
