@@ -189,8 +189,8 @@
 
 
 @keyframes bubule {
-    from{ top: 50%; left: 50%; z-index: 1;}
-    to {z-index: 1;}
+    from{ top: 50%; left: 50%; z-index: -1;}
+    to {z-index: -1;}
 }
 
 @keyframes bubule1 {
