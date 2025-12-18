@@ -1,23 +1,58 @@
 h1{
-    margin-top:200px;
-    margin-bottom: 150px;
+    margin-top:120px;
+    margin-bottom: 100px;
 }
 
-/* Conteneur du label */
-.date{
+section {
     display: flex;
-    flex-direction:column;
-    font-size: 1.1rem;
-    width: 230px;
-    gap: 10px;
-    margin-bottom: 25px; 
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
 }
 
-/* Texte du label */
-.date span{
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    max-width: 400px;
+    background: linear-gradient(40deg, rgb(225, 223, 223), rgb(205, 240, 247));
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    margin: 20px;
+    height: 30%;
+    min-height: 130px;
+    animation: filtre 2s ease;
+}
+
+#infos{
+    height: 30%;
+    min-height: 300px;
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+    width: 800px;
+    padding: 30px;
+}
+
+label {
+    justify-content: center;
+}
+
+.date {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.date span {
+    text-align: center;
     font-weight: bold;
-    letter-spacing: 0.5px;
-    margin-left: 60px;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 /* Style du input date */
@@ -29,12 +64,6 @@ h1{
     font-size: 1rem;
     transition: 0.3s ease;
     cursor: pointer;
-}
-
-/* Effet quand on clique ou passe la souris */
-.date:hover {
-    border-color: #7a5cff;
-    background: #f5f2ff;
 }
 
 h2 {

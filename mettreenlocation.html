@@ -7,6 +7,7 @@
     </section>
     <link rel="stylesheet" href="css/mettreenlocation.css">
 	<link rel="stylesheet" href="css/commun.css">
+    <link rel="stylesheet" href="css/bubule.css">
 </head>
 <header>
     <img class="logonoir" src="img/logoGameFreak.png" />  <!-- image logo game freak-->
@@ -17,25 +18,31 @@
 <body>
     <h1>Proposer une location</h1>
     <section>
-        <aside class="filtres">
-            <h2>Veuillez spécifier les détails de la location</h2>
+        <aside class="dates">
             <label class="date">
-                <span>Je loue mon véhicule à partir du</span>
+                <span>Je loue mon véhicule à partir du :</span>
                 <input type="date">
             </label>
+        </aside>
+        <aside class="dates">
             <label class="date">
-                <span>et ce jusqu'au</span>
+                <span>Et ce jusqu'au :</span>
                 <input type="date">
             </label> 
-                <button class="bouton">Se connecter</button>
         </aside>
     </section>
-    <select> 
-        <option>-- Choisissez un véhicule --</option>
-        <option>Trotinette</option>
-        <option>Scooter</option>
-        <option>Voiture</option>
-    </select>
+    <section>
+        <aside id="infos">
+            <select> 
+                <option>-- Choisissez un véhicule --</option>
+                <option>Trotinette</option>
+                <option>Scooter</option>
+                <option>Voiture</option>
+            </select>
+        </aside>
+    </section>
+    <button class="bouton">Se connecter</button>
+    
 </body>
 <footer>
     <a>© GAME FREAK inc. All Rights Reserved.</a>
