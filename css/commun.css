@@ -53,3 +53,23 @@ footer>.gamefreak{
     justify-content: space-between;
     align-items: center;
 }
+
+footer>a{
+    text-align: left;
+    padding: 40px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body>h1{
+    display: flex;
+    justify-content: center;
+    font-size: 300%;
+}
+
+footer > a {
+    position:fixed;
+    bottom:0%;
+}
