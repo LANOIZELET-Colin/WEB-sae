@@ -4,31 +4,27 @@
 main {
   display: flex;
   flex-direction: row;
-  margin-top: 50px;
+  margin-top: 4%;
 }
 
-label{
-    size: 50px;
-}
 
 h1{
   text-align: center;
-  margin-top: 90px;
+  margin-top: 7%;
 }
 
 input{
     transform: scale(1.4);
-    margin: 7px;
+    margin: 3%;
 }
 
 
 
-/* Filtres */
 .filtres {
-  width: 300px;
+  width: 100%;
   max-width: 400px;
   background: linear-gradient(40deg, rgb(225, 223, 223), rgb(205, 240, 247));
-  padding: 20px;
+  padding: 2%;
   border-radius: 12px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.2);
   margin: 20px;
@@ -37,13 +33,11 @@ input{
   animation: filtre 2s ease;
 }
 
-/* Titre filtres */
 .filtres h2 {
   text-align: center;
   margin-bottom: 20px;
 }
 
-/* Champs déroulants */
 .filtres select {
   width: 100%;
   padding: 10px;
@@ -53,11 +47,6 @@ input{
   border: 1px solid #aaa;
   background-color: #f9f9f9;
 }  
-
-
-
-
-
 
 .zonetext textarea {
     width: 100%;
@@ -105,11 +94,11 @@ datalist>option{
 }
 
 #villedepart{
-  margin-bottom: 30px;
+  margin-bottom: 20%;
 }
 
 #nombre{
-  margin-bottom: 30px;
+  margin-bottom: 20%;
 }
 
 div{
@@ -118,11 +107,11 @@ div{
 }
 
 button{
-  padding: 20px;
+  padding: 1.5%;
   background-color: cornflowerblue;
   border: #aaa;
   border-radius: 30px;
-  margin-top: 40px;
+  margin-top: 3%;
 }
 
 button:hover{
