@@ -5,25 +5,26 @@ body{
 }
 
 .filtres {
-  position: absolute;
+  margin-left: 20px;
+  position: fixed;
   width: 20%;
+  min-width: 150px;
+  max-width: 250px;
   background-color: rgb(179, 229, 239);
   padding: 30px;
   border-radius: 20px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
-/* Titre filtres */
+
 .filtres h2 {
   text-align: center;
   margin-bottom: 20px;
 }
 
-
-
 .label{
   text-align: center;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .input{
@@ -55,14 +56,14 @@ h1{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;  
-  gap: 30px;
-  margin-left: 210px;
+  gap: 50px;
+  margin-left: 270px;
   margin-top: 40px;
 }
 
-/* Carte */
 .recherche {
-  width: 260px;      
+  width: 260px;
+  height: fit-content;
   background: linear-gradient(145deg, #cdcccc, #a6dbdd);
   border-radius: 22px;
   box-shadow: 0 8px 25px rgba(0,0,0,0.12);
@@ -73,16 +74,11 @@ h1{
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Texte */
 .recherche p {
   margin: 0;
   font-size: 15px;
-  color: #333;
 }
 
-
-
-/* Hover doux (évite le zoom violent) */
 .recherche:hover {
   transform: translateY(-8px) scale(1.03);
   box-shadow: 0 15px 35px rgba(0,0,0,0.18);
