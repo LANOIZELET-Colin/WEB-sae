@@ -17,7 +17,40 @@
 <h1>Louer un véhicule</h1>
 <form action="moncompte.html">
   <aside class="filtres">
+      <p>Cliquer sur les proposition de covoiturage pour en savoir plus puis les réserver</p>
+      <p>-----</p>
     <h2>Filtres :</h2>
+    <label for="temps" class="label">Heure de départ</label>
+        <input type="time" id="temps" class="input" title="Entré votre heure de départ" required>
+      
+        <label for="temps" class="label">Heure d'arriver</label>
+        <input type="time" id="temps" class="input" title="Entré votre heure d'arriver" required>
+        
+        <label for="date" class="label">Date du trajet</label>
+        <input id="date" class="input" type="date" title="Entré la date de votre trajet" required>
+      
+    </label>
+
+    <label for="véhi" class="label">Type de véhicules</label>
+    <select class="input" id="véhi">
+      <option>Tous</option>
+      <option>Vélo</option>
+      <option>Trottinette</option>
+      <option>Voiture</option>
+    </select>
+
+    <label for="villedepart" class="label">Ville de départ</label>
+    <input list="villes" id="villedepart"  class="input" placeholder="Rechercher une ville" required>
+    <datalist id="villes">
+      <option value="Paris"></option>
+      <option value="Lyon"></option>
+      <option value="Marseille"></option>
+      <option value="Dijon"></option>
+      <option value="Toulouse"></option>
+      <option value="Lille"></option>
+      <option value="Comines"></option>
+    </datalist>
+=======
   
        <label for="date" class="label">Date dem début</label>
         <input id="date" class="input" type="date" title="Entré la date du début de la location" required>

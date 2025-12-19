@@ -36,13 +36,13 @@ aside p{
 
 .label{
   text-align: center;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .input{
   border: solid 0.5px rgb(216, 193, 239);
   display: block;
-  margin: 10px auto;
+  margin: 8px auto;
   background-color: #f4f9fa;
   padding: 10px;
   border-radius: 10px;
@@ -176,7 +176,7 @@ background: linear-gradient(145deg, #e6713b, #e6a10d);
   justify-content: center;
   border-radius: 10px;
   padding: 10px;
-  background: linear-gradient(rgb(113, 164, 245),rgb(107, 200, 246));
+  background: linear-gradient(rgb(232, 156, 108),rgb(219, 103, 103));
   border: solid 1px rgb(167, 144, 144);
 }
 
