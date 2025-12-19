@@ -18,41 +18,50 @@
 <form action="moncompte.html">
   <aside class="filtres">
     <h2>Filtres :</h2>
-    <label for="temps" class="label">Heure de départ</label>
-        <input type="time" id="temps" class="input" title="Entré votre heure de départ" required>
-      
-        <label for="temps" class="label">Heure d'arriver</label>
-        <input type="time" id="temps" class="input" title="Entré votre heure d'arriver" required>
-        
-        <label for="date" class="label">Date du trajet</label>
-        <input id="date" class="input" type="date" title="Entré la date de votre trajet" required>
-      
-    </label>
-    <label for="villedepart" class="label">Ville de départ</label>
-    <input list="villes" id="villedepart"  class="input" placeholder="Rechercher une ville" required>
-    <datalist id="villes">
-      <option value="Paris"></option>
-      <option value="Lyon"></option>
-      <option value="Marseille"></option>
-      <option value="Dijon"></option>
-      <option value="Toulouse"></option>
-      <option value="Lille"></option>
-      <option value="Comines"></option>
-    </datalist> 
   
-    <label for="villearriver" class="label">Ville d'arriver</label>
-    <input list="villes" id="villearriver" class="input" placeholder="Rechercher une ville">
-    <datalist id="villes">
-      <option value="Paris"></option>
-      <option value="Lyon"></option>
-      <option value="Marseille"></option>
-      <option value="Dijon"></option>
-      <option value="Toulouse"></option>
+       <label for="date" class="label">Date de début</label>
+        <input id="date" class="input" type="date" title="Entré la date du début de la location" required>
+        
+        <label for="date" class="label">Date de fin</label>
+        <input id="date" class="input" type="date" title="Entré la date de la fin de la location" required>
+      
+
+    <label for="marque" class="label">Marque</label>
+    <input list="marques" class="input" title="choisissez une Marque" placeholder="Rechercher une Marque" required>
+      <datalist id="marques">
+        <option value="Peugeot">
+        <option value="Dacia">
+        <option value="Opel">
+        <option value="Renault">
+        <option value="Citroën">
+          </datalist>
+  
+  
+    <label for="typevehicule" class="label">Type Véhicule</label>
+    <input list="typevehicule" class="input" title="choisissez un Type de véhicule" placeholder="Rechercher un Type" required>
+    <datalist id="typevehicule">
+      <option value="Voiture électrique"></option>
+      <option value="Voiture essence"></option>
+      <option value="Voiture hybride"></option>
+      <option value="Trottinette électrique"></option>
+      <option value="Vélo"></option>
       <option value="Lille"></option>
-      <option value="Comines"></option>
+      <option value="Vélo électrique"></option>
     </datalist>
+
+    <label for="rix" class="label">Prix/jour</label>
+    <input list="prix" class="input" title="choisissez un intervalle de Prix" placeholder="Rechercher un Prix" required>
+    <datalist id="prix">
+      <option value="entre 0€ et 10€"></option>
+      <option value="zntre 10€ et 20€"></option>
+      <option value="zntre 20€ et 30€"></option>
+      <option value="zntre 30€ et 40€"></option>
+      <option value="zntre 40€ et 50€"></option>
+    </datalist>
+
+
       <p>-----</p>
-      <p>Cliquer sur les proposition de covoiturage pour en savoir plus puis les réserver</p>
+      <p>Cliquer sur les proposition pour en savoir plus puis les réserver</p>
   </aside>
   </form>
 
