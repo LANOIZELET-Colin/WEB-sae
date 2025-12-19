@@ -4,9 +4,9 @@ Ici, nous allons vous lister la plupart des choses à savoir sur la composition 
 
 ------------------------------------ Informations Importantes ----------------------------------------------------------------------
 
-- La page d'accueil n'est pas ici un fichier "index.html" utilisé par défaut mais bien le fichier "paged_accueil.html".
+- La page d'accueil n'est pas ici un fichier "index.html" utilisé par défaut mais bien le fichier "paged_acceuil.html".
 
-- Pour le bon fonctionnement du site, AUCUN FICHIER ne doit être MODIFIER ou SUPPRIMER.
+- Pour le bon fonctionnement du site, AUCUN FICHIER ne doit être MODIFIÉ ou SUPPRIMÉ.
 
 - Le nom de chaque fichier a été choisi afin de comprendre leur utilité le plus clairement possible.
 
@@ -20,14 +20,14 @@ ce site par le site officiel et qu'il est déjà connecté.
 
 - La page "renseignement" n'existe plus. Cette page a plutôt été intégrée dans la page d'accueil directement afin d'éviter la redondance.
 
-- La page "Rechercher un covoiturage" à été réarrangée. les filtres ont changés afin de plus correspondre au information qu'on pourrait vouloir chercher.
-Le tableau a été remplacé par des "cases" par soucis de d'esthétisme. la page "confirmer la location" a été implémentée dans cette page pour confirmer le covoiturage.
+- La page "Rechercher un covoiturage" a été réarrangée. les filtres ont changé afin de plus correspondre aux informations qu'on pourrait vouloir rechercher.
+Le tableau a été remplacé par des "cases" par soucis d'esthétisme. la page "confirmer la location" a été implémentée dans cette page pour confirmer le covoiturage.
 
-- Les pages "louer un véhicule" , "disponibilité des véhicules à louer" et "confirmer la location" ont fusionnées. Nous avons réarranger ces pages afin d'optimiser
-le nombre de page. Nous avons également enlèver quelques filtres qui nous semblent pas très utile. Cette page est très semblable à "Rechercher un un covoiturage" 
-car elle sont toutes les deux des page de recherche.
+- Les pages "louer un véhicule" , "disponibilité des véhicules à louer" et "confirmer la location" ont fusionnées. Nous avons réarrangé ces pages afin d'optimiser
+le nombre de page. Nous avons également enlevé quelques filtres qui ne nous semblent pas très utile. Cette page est très semblable à "Rechercher un un covoiturage" 
+car elles sont toutes les deux des pages de recherche.
 
-- La page "proposer un covoiturage" a été réarranger. La disposition des formulaire a changé.
+- La page "proposer un covoiturage" a été réarrangée. La disposition des formulaires a changé.
 
 
 
