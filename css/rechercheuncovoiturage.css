@@ -10,16 +10,17 @@ p{
 
 .filtres {
   margin-left: 2%;
-  position: fixed;
+  margin-bottom: 50px;
+  position: absolute;
   width: 20%;
   min-width: 200px;
   max-width: 250px;
   background-color: rgb(179, 229, 239);
   padding: 20px;
-  margin-top: -70px;
   border-radius: 20px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
+
 
 a{
   text-decoration: none;
