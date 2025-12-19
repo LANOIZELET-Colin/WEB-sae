@@ -90,11 +90,16 @@ h2 {
 .reserve > .image {
   width: 65%;
   border-radius: 14px;
+  margin-top: 20px;
 }
 
 footer{
-    color: white;
-  
+    color: white; 
 }
 
+h3{
+    margin-top: -10px;
+    margin-bottom: 5px;
+    margin-left: 80%;
+}
 
