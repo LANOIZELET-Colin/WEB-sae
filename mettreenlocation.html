@@ -19,80 +19,82 @@
 </header>
 
 <h1>Proposer une location</h1>
-<form action="mon compte.html"></form>
-<section class="section-dates">
-    <aside class="dates">
-        <label class="date">
-            <span>Je loue mon véhicule à partir du :</span>
-            <input type="date">
-        </label>
-    </aside>
+<form action="mon compte.html">
+    <section class="section-dates">
+        <aside class="dates">
+            <label class="date">
+                <span>Je loue mon véhicule à partir du :</span>
+                <input type="date" required>
+            </label>
+        </aside>
 
-    <aside class="dates">
-        <label class="date">
-            <span>Et ce jusqu'au :</span>
-            <input type="date">
-        </label>
-    </aside>
-</section>
+        <aside class="dates">
+            <label class="date">
+                <span>Et ce jusqu'au :</span>
+                <input type="date" required>
+            </label>
+        </aside>
+    </section>
 
-<section class="section-infos">
-    <aside id="infos">
+    <section class="section-infos">
+        <aside id="infos">
 
-        <h2>Ajoutez la description du véhicule</h2>
+            <h2>Ajoutez la description du véhicule</h2>
 
-        <div class="colonne">
+            <div class="colonne">
 
-            <div class="champ">
-                <label for="typevehicule">Type de véhicule</label>
-                <input list="vehicule" id="typevehicule" class="input" placeholder="Choisir un type" required>
-                <datalist id="vehicule">
-                    <option value="Voiture électrique">
-                    <option value="Voiture essence">
-                    <option value="Voiture hybride">
-                    <option value="Trottinette électrique">
-                    <option value="Vélo">
-                    <option value="Vélo électrique">
-                </datalist>
+                <div class="champ">
+                    <label for="typevehicule">Type de véhicule</label>
+                    <input list="vehicule" id="typevehicule" class="input" placeholder="Choisir un type" required>
+                    <datalist id="vehicule">
+                        <option value="Voiture électrique">
+                        <option value="Voiture essence">
+                        <option value="Voiture hybride">
+                        <option value="Trottinette électrique">
+                        <option value="Vélo">
+                        <option value="Vélo électrique">
+                    </datalist>
+                </div>
+
+                <div class="champ">
+                    <label for="marque">Marque</label>
+                    <input list="marques" id="marque" class="input" placeholder="Choisir une marque">
+                    <datalist id="marques">
+                        <option value="Peugeot">
+                        <option value="Dacia">
+                        <option value="Opel">
+                        <option value="Renault">
+                        <option value="Citroën">
+                    </datalist>
+                </div>
+
+                <div class="champ">
+                    <label for="prix">Prix à la journée (€)</label>
+                    <input type="number" id="prix" class="input" required>
+                </div>
+
             </div>
 
-            <div class="champ">
-                <label for="marque">Marque</label>
-                <input list="marques" id="marque" class="input" placeholder="Choisir une marque">
-                <datalist id="marques">
-                    <option value="Peugeot">
-                    <option value="Dacia">
-                    <option value="Opel">
-                    <option value="Renault">
-                    <option value="Citroën">
-                </datalist>
+            <div class="colonne">
+
+                <div class="champ">
+                    <label for="fichier">Photo du véhicule</label>
+                    <input type="file" id="fichier">
+                </div>
+
+                <div class="champ">
+                    <label for="description">Description</label>
+                    <textarea id="description" rows="6" placeholder="Ajouter des précisions..."></textarea>
+                </div>
+
             </div>
 
-            <div class="champ">
-                <label for="prix">Prix à la journée (€)</label>
-                <input type="number" id="prix" class="input" required>
-            </div>
-
-        </div>
-
-        <div class="colonne">
-
-            <div class="champ">
-                <label for="fichier">Photo du véhicule</label>
-                <input type="file" id="fichier">
-            </div>
-
-            <div class="champ">
-                <label for="description">Description</label>
-                <textarea id="description" rows="6" placeholder="Ajouter des précisions..."></textarea>
-            </div>
-
-        </div>
-
-    </aside>
-</section>
-
-<button>Mettre en location</button>
+        </aside>
+    </section>
+    <div>
+    <button type="submit">Mettre en location</button>
+    </div>
+</form>
 
 <figure class="bubule-a" id="bubu"></figure>
 	<figure class="bubule-b" id="bubu"></figure>
