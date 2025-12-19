@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Louer un véhicule</title>
+  <title>Recherche covoiturage</title>
   <link rel="stylesheet" href="css/louerunvehicule.css">
   <link rel="stylesheet" href="css/commun.css">
   <link rel="stylesheet" href="css/bubule.css">
@@ -14,105 +14,218 @@
     </a>
 </header>
 <body>
-<h1>Louer un véhicule</h1>
-
+<h1>Rechercher un covoiturage</h1>
+<form action="rechercheuncovoiturage2.html">
   <aside class="filtres">
     <h2>Filtres :</h2>
+    <label for="temps" class="label">Heure de départ</label>
+        <input type="time" id="temps" class="input" title="Entré votre heure de départ" required>
+      
+        <label for="temps" class="label">Heure d'arriver</label>
+        <input type="time" id="temps" class="input" title="Entré votre heure d'arriver" required>
         
-        <label for="date" class="label">A partir du</label>
-        <input id="date" class="input" type="date" title="Entré la date du début de votre location" required>
-
-        <label for="date" class="label">jusqu'au</label>
-        <input id="date" class="input" type="date" title="Entré la date de fin de votre location" required>
-    
+        <label for="date" class="label">Date du trajet</label>
+        <input id="date" class="input" type="date" title="Entré la date de votre trajet" required>
+      
     </label>
-    <label for="typevéhicule" class="label">Type véhicule</label>
-          <input list="véhicule" id="typevéhicule" title="Choisissez un type de véhicule" class="input" placeholder="Rechercher un type" required>
-          <datalist id="véhicule">
-            <option value="Voiture électrique"></option>
-            <option value="Voiture essence"></option>
-            <option value="Voiture hybride"></option>
-            <option value="Trotinette électrique"></option>
-            <option value="Vélo"></option>
-            <option value="Vélo électrique"></option>
-            </datalist> 
+    <label for="villedepart" class="label">Ville de départ</label>
+    <input list="villes" id="villedepart"  class="input" placeholder="Rechercher une ville" required>
+    <datalist id="villes">
+      <option value="Paris"></option>
+      <option value="Lyon"></option>
+      <option value="Marseille"></option>
+      <option value="Dijon"></option>
+      <option value="Toulouse"></option>
+      <option value="Lille"></option>
+      <option value="Comines"></option>
+    </datalist> 
   
-          <label for="marque" class="label">Marque</label>
-          <input list="marques" id="Marques" title="Choisissez une marque" class="input" placeholder="Rechercher une marque">
-          <datalist id="marques">
-            <option value="Peugeot"></option>
-            <option value="Dacia"></option>
-            <option value="Opel"></option>
-            <option value="Renault"></option>
-            <option value="Citroën"></option>
-            <option value="B'Twin"></option>
-          </datalist>
-
-          <label for="prix" class="label">Prix</label>
-          <input list="prix" id="Prix" class="input" title="Choisissez une tranche de prix" placeholder="Rechercher une tranche de prix">
-          <datalist id="prix">
-            <option value="entre 0€ et 10€"></option>
-            <option value="entre 10€ et 20€"></option>
-            <option value="entre 20€ et 30€"></option>
-            <option value="entre 30€ et 40€"></option>
-            <option value="entre 40€ et 50€"></option>
-          </datalist>
-
-        <p>-----</p>
-      <p>Cliquer sur les proposition de véhicule pour en savoir plus puis les réserver</p>
+    <label for="villearriver" class="label">Ville d'arriver</label>
+    <input list="villes" id="villearriver" class="input" placeholder="Rechercher une ville">
+    <datalist id="villes">
+      <option value="Paris"></option>
+      <option value="Lyon"></option>
+      <option value="Marseille"></option>
+      <option value="Dijon"></option>
+      <option value="Toulouse"></option>
+      <option value="Lille"></option>
+      <option value="Comines"></option>
+    </datalist>
+      <p>-----</p>
+      <p>Cliquer sur les proposition de covoiturage pour en savoir plus puis les réserver</p>
   </aside>
- 
+  </form>
 
-   <div class="alignement">
+  <div class="alignement">
 
-    <div class="recherche" >
-      <p>Date de début: 25/12/25</p>
-      <p>Date de fin: 01/01/26</p>
-      <p>Type de véhicule: voiture essence</p>
-      <p>Marque: Peugeot</p>
-      <p>Prix/jour: 21€</p>
+    <a href="#trouve" class="recherche">
+      <p>Heure de départ: 8h05</p>
+      <p>Heure d'arriver: 9h20</p>
+      <p>Lieu de départ: Comines</p>
+      <p>Lieu d'arriver: Lille</p>
+      <p>Date du trajet: 27/12/2025</p>
+    </a>
+    <a href="#trouer" class="recherche">
+      <p>Heure de départ: 9h05</p>
+      <p>Heure d'arriver: 11h40</p>
+      <p>Lieu de départ: Paris</p>
+      <p>Lieu d'arriver: Lille</p>
+      <p>Date du trajet: 30/12/2025</p>
+    </a>
+    <a href="#troue" class="recherche">
+      <p>Heure de départ: 9h20</p>
+      <p>Heure d'arriver: 16h51</p>
+      <p>Lieu de départ: Toulouse</p>
+      <p>Lieu d'arriver: Lyon</p>
+      <p>Date du trajet: 15/10</p>
+    </a>
+    <a href="#trou" class="recherche">
+      <p>Heure de départ: 8h05</p>
+      <p>Heure d'arriver: 9h20</p>
+      <p>Lieu de départ: Comines</p>
+      <p>Lieu d'arriver: Lille</p>
+      <p>Date du trajet: 27/12/2025</p>
+    </a>
+    <a href="#tro" class="recherche">
+      <p>Heure de départ: 8h05</p>
+      <p>Heure d'arriver: 9h20</p>
+      <p>Lieu de départ: Comines</p>
+      <p>Lieu d'arriver: Lille</p>
+      <p>Date du trajet: 27/12/2025</p>
+    </a>
+    <a href="#tr"  class="recherche">
+      <p>Heure de départ: 8h05</p>
+      <p>Heure d'arriver: 9h20</p>
+      <p>Lieu de départ: Comines</p>
+      <p>Lieu d'arriver: Lille</p>
+      <p>Date du trajet: 27/12/2025</p>
+    </a>
+  </div>
+
+
+
+
+
+  <div id="trouer" class="confirmation">
+    <div class="fondu"></div>
+
+    <aside class="block">
+    <a href="#" class="close">✕</a>
+
+    <h2>Votre choix</h2>
+
+    <div class="infos">
+      <p><strong>Date de début :</strong> 25/12/25</p>
+      <p><strong>Date de fin :</strong> 01/01/26</p>
+      <p><strong>Véhicule :</strong> Voiture essence</p>
+      <p><strong>Marque :</strong> Peugeot</p>
+      <p><strong>Prix :</strong> 67 €</p>
     </div>
 
-    <div class="recherche">
-      <p>Date de début: 27/12/25</p>
-      <p>Date de fin: 01/02/26</p>
-      <p>Type de véhicule: voiture hybride</p>
-      <p>Marque: Citroën</p>
-      <p>Prix/jour: 30€</p>
-    </div>
+    <img class="image" src="img/Peugeot_208.jpg" alt="Véhicule">
+  </aside>
+</div>
 
-    <div class="recherche">
-      <p>Date de début: 22/01/26</p>
-      <p>Date de fin: 26/01/26</p>
-      <p>Type de véhicule: voiture essence</p>
-      <p>Marque: Dacia</p>
-      <p>Prix/jour: 18€</p>
-    </div>
 
-    <div class="recherche">
-      <p>Date de début: 22/01/26</p>
-      <p>Date de fin: 06/02/26</p>
-      <p>Type de véhicule: voiture essence</p>
-      <p>Marque: Renault</p>
-      <p>Prix/jour: 36€</p>
-    </div>
+  <div id="trouve" class="confirmation">
+    <div class="fondu"></div>
 
-    <div class="recherche">
-      <p>Date de début: 25/12/25</p>
-      <p>Date de fin: 03/01/26</p>
-      <p>Type de véhicule: vélo</p>
-      <p>Marque: B'Twin</p>
-      <p>Prix/jour: 2€</p>
-    </div>
+    <aside class="block">
+      <a href="#" class="close">✕</a>
 
-    <div class="recherche">
-      <p>Date de début: 25/12/25</p>
-      <p>Date de fin: 01/01/26</p>
-      <p>Type de véhicule: Trotinette électrique</p>
-      <p>Marque: Xiaomi</p>
-      <p>Prix/jour: 3€</p>
-    </div>
+      <h2>Votre choix</h2>
 
+      <div class="infos">
+        <p><strong>Date de début :</strong> 25/12/25</p>
+        <p><strong>Date de fin :</strong> 01/01/26</p>
+        <p><strong>Véhicule :</strong> Voiture essence</p>
+        <p><strong>Marque :</strong> Peugeot</p>
+        <p><strong>Prix :</strong> 67 €</p>
+      </div>
+
+      <img class="image" src="img/Peugeot_208.jpg" alt="Véhicule">
+    </aside>
+  </div>
+
+   <div id="troue" class="confirmation">
+    <div class="fondu"></div>
+
+    <aside class="block">
+      <a href="#" class="close">✕</a>
+
+      <h2>Votre choix</h2>
+
+      <div class="infos">
+        <p><strong>Date de début :</strong> 25/12/25</p>
+        <p><strong>Date de fin :</strong> 01/01/26</p>
+        <p><strong>Véhicule :</strong> Voiture essence</p>
+        <p><strong>Marque :</strong> Peugeot</p>
+        <p><strong>Prix :</strong> 67 €</p>
+      </div>
+
+      <img class="image" src="img/Peugeot_208.jpg" alt="Véhicule">
+    </aside>
+  </div>
+
+  <div id="trou" class="confirmation">
+    <div class="fondu"></div>
+
+    <aside class="block">
+      <a href="#" class="close">✕</a>
+
+      <h2>Votre choix</h2>
+
+      <div class="infos">
+        <p><strong>Date de début :</strong> 25/12/25</p>
+        <p><strong>Date de fin :</strong> 01/01/26</p>
+        <p><strong>Véhicule :</strong> Voiture essence</p>
+        <p><strong>Marque :</strong> Peugeot</p>
+        <p><strong>Prix :</strong> 67 €</p>
+      </div>
+
+      <img class="image" src="img/Peugeot_208.jpg" alt="Véhicule">
+    </aside>
+  </div> 
+  
+    <div id="tro" class="confirmation">
+    <div class="fondu"></div>
+
+    <aside class="block">
+      <a href="#" class="close">✕</a>
+
+      <h2>Votre choix</h2>
+
+      <div class="infos">
+        <p><strong>Date de début :</strong> 25/12/25</p>
+        <p><strong>Date de fin :</strong> 01/01/26</p>
+        <p><strong>Véhicule :</strong> Voiture essence</p>
+        <p><strong>Marque :</strong> Peugeot</p>
+        <p><strong>Prix :</strong> 67 €</p>
+      </div>
+
+      <img class="image" src="img/Peugeot_208.jpg" alt="Véhicule">
+    </aside>
+  </div>
+
+    <div id="tr" class="confirmation">
+    <div class="fondu"></div>
+
+    <aside class="block">
+      <a href="#" class="close">✕</a>
+
+      <h2>Votre choix</h2>
+
+      <div class="infos">
+        <p><strong>Date de début :</strong> 25/12/25</p>
+        <p><strong>Date de fin :</strong> 01/01/26</p>
+        <p><strong>Véhicule :</strong> Voiture essence</p>
+        <p><strong>Marque :</strong> Peugeot</p>
+        <p><strong>Prix :</strong> 67 €</p>
+      </div>
+
+      <img class="image" src="img/Peugeot_208.jpg" alt="Véhicule">
+    </aside>
+  </div>
 
   <figure class="bubule-a" id="bubu"></figure>
 	<figure class="bubule-b" id="bubu"></figure>
