@@ -10,11 +10,12 @@ p{
 
 .filtres {
   margin-left: 2%;
+  margin-top: 25px;
   position: fixed;
   width: 20%;
   min-width: 200px;
   max-width: 250px;
-   background: linear-gradient(145deg, #e6713b, #e6a10d);
+  background: linear-gradient(145deg, #e6713b, #e6a10d);
   padding: 20px;
   border-radius: 20px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.2);
@@ -76,7 +77,7 @@ h1{
 .recherche {
   width: 20%;
   height: fit-content;
-background: linear-gradient(145deg, #e6713b, #e6a10d);
+  background: linear-gradient(145deg, #e6713b, #e6a10d);
   border-radius: 22px;
   box-shadow: 0 8px 25px rgba(0,0,0,0.12);
   padding: 22px;
