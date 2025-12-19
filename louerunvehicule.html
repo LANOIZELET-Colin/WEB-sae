@@ -1,40 +1,133 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <title>Louer un véhicule</title>
-    <link rel="stylesheet" href="css/louerunvehicule.css">
-    <link rel="stylesheet" href="css/commun.css">
+  <meta charset="UTF-8">
+  <title>Louer un véhicule</title>
+  <link rel="stylesheet" href="css/louerunvehicule.css">
+  <link rel="stylesheet" href="css/commun.css">
+  <link rel="stylesheet" href="css/bubule.css">
 </head>
-<body>
-
-    <!-- HEADER -->
-    <header>
-	<img class="logonoir" src="img/logoGameFreak.png" />  <!-- image logo game freak-->
-	<a class="menu-button" href="menuprincipal.html">
-      <span></span>
+<header>
+  <img class="logonoir" src="img/logoGameFreak.png" alt="Game Freak Logo">
+    <a class="menu-button" href="menuprincipal.html">
+        <span></span>
     </a>
 </header>
-<section>
-    <aside class="filtres">
-        <h2>choisissez vos préférences</h2>
-        <label class="date">
-        <span>à partir du</span>
-        <input type="date">
+<body>
+<h1>Louer un véhicule</h1>
+
+  <aside class="filtres">
+    <h2>Filtres :</h2>
+        
+        <label for="date" class="label">A partir du</label>
+        <input id="date" class="input" type="date" title="Entré la date du début de votre location" required>
+
+        <label for="date" class="label">jusqu'au</label>
+        <input id="date" class="input" type="date" title="Entré la date de fin de votre location" required>
+    
     </label>
-    <label class="date">
-        <span>jusqu'au</span>
-        <input type="date">
-    </label> 
-        <button class="bouton">Se connecter</button>
-        </aside>
-   
-</section>
+    <label for="typevéhicule" class="label">Type véhicule</label>
+          <input list="véhicule" id="typevéhicule" title="Choisissez un type de véhicule" class="input" placeholder="Rechercher un type" required>
+          <datalist id="véhicule">
+            <option value="Voiture électrique"></option>
+            <option value="Voiture essence"></option>
+            <option value="Voiture hybride"></option>
+            <option value="Trotinette électrique"></option>
+            <option value="Vélo"></option>
+            <option value="Vélo électrique"></option>
+            </datalist> 
+  
+          <label for="marque" class="label">Marques</label>
+          <input list="marques" id="Marques" title="Choisissez une marque" class="input" placeholder="Rechercher une marque">
+          <datalist id="marques">
+            <option value="Paugeot"></option>
+            <option value="Dacia"></option>
+            <option value="Opel"></option>
+            <option value="Renault"></option>
+            <option value="Citroën"></option>
+          </datalist>
+
+          <label for="prix" class="label">Prix</label>
+          <input list="prix" id="Prix" class="input" title="Choisissez une tranche de prix" placeholder="Rechercher une tranche de prix">
+          <datalist id="prix">
+            <option value="entre 0€ et 50€"></option>
+            <option value="entre 50€ et 100€"></option>
+            <option value="entre 100€ et 150€"></option>
+            <option value="entre 150€ et 200€"></option>
+            <option value="entre 200€ et 250€"></option>
+          </datalist>
+  </aside>
+ 
+
+   <div class="alignement">
+
+    <div class="recherche">
+      <p>Date de début: 25/12/25</p>
+      <p>Date de fin: 01/01/26</p>
+      <p>Type de véhicule: voiture essence</p>
+      <p>Marque: Paugeot</p>
+      <p>Prix: 67€</p>
+    </div>
+
+    <div class="recherche">
+      <p>Date de début: 25/12/25</p>
+      <p>Date de fin: 01/01/26</p>
+      <p>Type de véhicule: voiture essence</p>
+      <p>Marque: Paugeot</p>
+      <p>Prix: 67€</p>
+    </div>
+
+    <div class="recherche">
+      <p>Date de début: 25/12/25</p>
+      <p>Date de fin: 01/01/26</p>
+      <p>Type de véhicule: voiture essence</p>
+      <p>Marque: Paugeot</p>
+      <p>Prix: 67€</p>
+    </div>
+
+    <div class="recherche">
+      <p>Date de début: 25/12/25</p>
+      <p>Date de fin: 01/01/26</p>
+      <p>Type de véhicule: voiture essence</p>
+      <p>Marque: Paugeot</p>
+      <p>Prix: 67€</p>
+    </div>
+
+    <div class="recherche">
+      <p>Date de début: 25/12/25</p>
+      <p>Date de fin: 01/01/26</p>
+      <p>Type de véhicule: voiture essence</p>
+      <p>Marque: Paugeot</p>
+      <p>Prix: 67€</p>
+    </div>
+
+    <div class="recherche">
+      <p>Date de début: 25/12/25</p>
+      <p>Date de fin: 01/01/26</p>
+      <p>Type de véhicule: voiture essence</p>
+      <p>Marque: Paugeot</p>
+      <p>Prix: 67€</p>
+    </div>
 
 
-
+  <figure class="bubule-a" id="bubu"></figure>
+	<figure class="bubule-b" id="bubu"></figure>
+	<figure class="bubule-c" id="bubu"></figure>
+	<figure class="bubule-d" id="bubu"></figure>
+	<figure class="bubule-e" id="bubu"></figure>
+	<figure class="bubule-f" id="bubu"></figure>
+	<figure class="bubule-g" id="bubu"></figure>
+	<figure class="bubule-h" id="bubu"></figure>
+	<figure class="bubule-i" id="bubu"></figure>
+	<figure class="bubule-j" id="bubu"></figure>
+	<figure class="bubule-k" id="bubu"></figure>
+	<figure class="bubule-m" id="bubu"></figure>
+	<figure class="bubule-n" id="bubu"></figure>
+	<figure class="bubule-o" id="bubu"></figure>
+	<figure class="bubule-p" id="bubu"></figure>
 </body>
+
 <footer>
-  <a>© GAME FREAK inc. All Rights Reserved.</a>
+  <a class="gamefreak">© GAME FREAK inc. All Rights Reserved.</a>
 </footer>
 </html>

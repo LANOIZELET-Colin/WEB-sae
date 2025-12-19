@@ -12,4 +12,9 @@ Ici nous allons vous lister la plus part des choses à savoir sur la composition
 
 ----------------------------- Changement principal par rapport à l'avant maquette -------------------------------------------------
 
-- La page con
+- La page "connexion" n'existe plus. Après réflexion, l'utilité de la page nous semble peu pertinente puisque nous supposont que l'utilisateur arrive sur
+ce site par le site officiel et qu'il est déjà connecté.
+
+- La page "renseignement" n'existe plus. Cette page a plutôt était intégré dans la page d'accueil directement afin d'éviter la redondance.
+
+- La page 
