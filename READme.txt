@@ -23,6 +23,11 @@ ce site par le site officiel et qu'il est déjà connecté.
 - Les pages "louer un véhicule" , "disponibilité des véhicules à louer" et "confirmer la location" ont fusionnés. Nous avons réarranger ces pages afin d'optimiser
 le nombre de page. Nous avons également enlèver quelques filtres qui nous semblent pas très utile.
 
-- La page "proposer un covoiturage" a été réarranger.
+- La page "proposer un covoiturage" a été réarranger. La disposition des formulaire ont changés
 
-- La page "
+- La page "Rechercher un covoiturage" à été réarranger. les filtres ont changés afin de plus correspondre au information qu'on pourrait vouloir chercher.
+Le tableau a été remplacé par des "cases" par soucis de d'esthétisme.
+
+-
+
+
