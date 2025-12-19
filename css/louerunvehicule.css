@@ -11,7 +11,7 @@ p{
 .filtres {
   margin-left: 2%;
   margin-top: 25px;
-  position: fixed;
+  position: absolute;
   width: 20%;
   min-width: 200px;
   max-width: 250px;
