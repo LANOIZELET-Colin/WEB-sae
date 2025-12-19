@@ -121,7 +121,7 @@ h1{
   position: absolute;
   inset: 0;
   background: rgba(0, 0, 0, 0.5);
-}
+} 
 
 
 .confirmation .block {
@@ -169,4 +169,14 @@ h1{
   width: 100%;
   margin-top: 25px;
   border-radius: 14px;
+}
+
+.bouton{
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #19d4d4;
+}
+
+.bouton:hover{
+  transform: scale(1.2);
 }
