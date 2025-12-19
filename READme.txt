@@ -4,7 +4,7 @@ Ici, nous allons vous lister la plupart des choses à savoir sur la composition 
 
 ------------------------------------ Informations Importantes ----------------------------------------------------------------------
 
-- La page d'accueil n'est pas ici un fichier "index.html" utilisé par défaut mais bien le fichier "paged_acceuil.html".
+- La page d'accueil n'est pas ici un fichier "index.html" utilisé par défaut mais bien le fichier "paged_accueil.html".
 
 - Pour le bon fonctionnement du site, AUCUN FICHIER ne doit être MODIFIÉ ou SUPPRIMÉ.
 
