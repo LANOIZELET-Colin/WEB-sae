@@ -20,14 +20,14 @@ ce site par le site officiel et qu'il est déjà connecté.
 
 - La page "renseignement" n'existe plus. Cette page a plutôt était intégré dans la page d'accueil directement afin d'éviter la redondance.
 
-- Les pages "louer un véhicule" , "disponibilité des véhicules à louer" et "confirmer la location" ont fusionnés. Nous avons réarranger ces pages afin d'optimiser
-le nombre de page. Nous avons également enlèver quelques filtres qui nous semblent pas très utile.
-
-- La page "proposer un covoiturage" a été réarranger. La disposition des formulaire ont changés
-
 - La page "Rechercher un covoiturage" à été réarranger. les filtres ont changés afin de plus correspondre au information qu'on pourrait vouloir chercher.
-Le tableau a été remplacé par des "cases" par soucis de d'esthétisme.
+Le tableau a été remplacé par des "cases" par soucis de d'esthétisme. la page "confirmer la location" a été implémenté dans cette page pour confirmer le covoiturage.
 
--
+- Les pages "louer un véhicule" , "disponibilité des véhicules à louer" et "confirmer la location" ont fusionnés. Nous avons réarranger ces pages afin d'optimiser
+le nombre de page. Nous avons également enlèver quelques filtres qui nous semblent pas très utile. Cette page est très semblable à "Rechercher un un covoiturage" 
+car elle sont toutes les deux des page de recherche.
+
+- La page "proposer un covoiturage" a été réarranger. La disposition des formulaire ont changés.
+
 
 
