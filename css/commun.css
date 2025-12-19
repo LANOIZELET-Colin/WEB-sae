@@ -44,7 +44,7 @@ header>.logonoir{
 }
 
 footer>.gamefreak{
-     font-family: "Arial", sans-serif;
+    font-family: "Arial", sans-serif;
     text-align: left;
     padding: 40px;
     font-size: 12px;
@@ -60,6 +60,8 @@ footer>a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position:fixed;
+    bottom:0%;
 }
 
 body>h1{
@@ -68,10 +70,7 @@ body>h1{
     font-size: 300%;
 }
 
-footer > a {
-    position:fixed;
-    bottom:0%;
-}
+
 
 html{
       font-family: Arial, sans-serif;
