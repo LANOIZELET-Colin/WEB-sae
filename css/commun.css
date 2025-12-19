@@ -72,3 +72,7 @@ footer > a {
     position:fixed;
     bottom:0%;
 }
+
+html{
+      font-family: Arial, sans-serif;
+}
