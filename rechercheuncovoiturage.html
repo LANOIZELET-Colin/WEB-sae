@@ -19,17 +19,17 @@
   <aside class="filtres">
     <h2>Filtres :</h2>
     <label for="temps" class="label">Heure de départ</label>
-        <input type="time" id="temps" class="input" title="Entré votre heure de départ" required>
+        <input type="time" id="temps" class="input" title="Entré votre heure de départ">
       
         <label for="temps" class="label">Heure d'arriver</label>
-        <input type="time" id="temps" class="input" title="Entré votre heure d'arriver" required>
+        <input type="time" id="temps" class="input" title="Entré votre heure d'arriver">
         
         <label for="date" class="label">Date du trajet</label>
-        <input id="date" class="input" type="date" title="Entré la date de votre trajet" required>
+        <input id="date" class="input" type="date" title="Entré la date de votre trajet">
       
     </label>
     <label for="villedepart" class="label">Ville de départ</label>
-    <input list="villes" id="villedepart"  class="input" placeholder="Rechercher une ville" required>
+    <input list="villes" id="villedepart"  class="input" placeholder="Rechercher une ville">
     <datalist id="villes">
       <option value="Paris"></option>
       <option value="Lyon"></option>
@@ -51,10 +51,11 @@
       <option value="Lille"></option>
       <option value="Comines"></option>
     </datalist>
-      <p>-----</p>
-      <p>Cliquer sur les proposition de covoiturage pour en savoir plus puis les réserver</p>
-  </aside>
-  </form>
+    <button id="filtres"> Appliquer les filtres</button>
+    <p>-----</p>
+    <p>Cliquer sur les proposition de covoiturage pour en savoir plus puis les réserver</p>
+    </aside>
+    </form>
 
   <div class="alignement">
 
