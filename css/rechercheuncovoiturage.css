@@ -16,7 +16,7 @@ p{
   max-width: 250px;
   background-color: rgb(179, 229, 239);
   padding: 20px;
-  margin-top: -50px;
+  margin-top: -70px;
   border-radius: 20px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
@@ -85,6 +85,7 @@ h1{
   flex-direction: column;
   gap: 10px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
 }
 
 .recherche p {
@@ -97,3 +98,75 @@ h1{
   box-shadow: 0 15px 35px rgba(0,0,0,0.18);
 }
 
+
+.confirmation {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  z-index: 1000;
+}
+
+.confirmation:target {
+  opacity: 1;
+}
+
+.confirmation .fondu {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+
+.confirmation .block {
+  position: relative;
+  background: linear-gradient(145deg, #f1f1f1, #dbeff3);
+  width: 90%;
+  max-width: 420px;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.25);
+  text-align: center;
+
+  transform: translateY(30px) scale(0.8);
+  transition: transform 0.4s ease;
+}
+
+.confirmation:target .block {
+  transform: scale(1);
+}
+
+
+.confirmation .close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 22px;
+  text-decoration: none;
+  color: #333;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.confirmation .close:hover {
+  transform: scale(1.2);
+  color: crimson;
+}
+
+.confirmation h2 {
+  margin-bottom: 20px;
+}
+
+
+.confirmation .infos p {
+  margin: 8px 0;
+  font-size: 20px;
+}
+
+.confirmation .image {
+  width: 100%;
+  margin-top: 25px;
+  border-radius: 14px;
+}
