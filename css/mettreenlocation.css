@@ -83,7 +83,7 @@ input[type="file"] {
     resize: none;
 }
 
-.bouton {
+button {
     display: block;
     margin: 50px auto;
     padding: 15px 40px;
