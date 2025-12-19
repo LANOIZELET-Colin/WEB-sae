@@ -35,9 +35,9 @@ input{
 
 
 
-aside{
+aside>div{
     display: flex;
-    flex-direction: row;
+    flex-direction: column ;
 }
 
 
