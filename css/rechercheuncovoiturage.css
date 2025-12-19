@@ -6,12 +6,13 @@ body{
 
 .filtres {
   margin-left: 2%;
-  position: absolute;
+  position: fixed;
   width: 20%;
   min-width: 200px;
   max-width: 250px;
   background-color: rgb(179, 229, 239);
-  padding: 30px;
+  padding: 20px;
+  margin-top: -50px;
   border-radius: 20px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
@@ -21,6 +22,9 @@ a{
   color: black;
 }
 
+aside p{
+  text-align: center;
+}
 
 .filtres h2 {
   text-align: center;
@@ -84,7 +88,8 @@ h1{
   font-size: 15px;
 }
 
-.recherche:hover {
+.recherche:hover{
   transform: translateY(-8px) scale(1.03);
   box-shadow: 0 15px 35px rgba(0,0,0,0.18);
 }
+
