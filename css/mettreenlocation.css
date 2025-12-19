@@ -25,7 +25,7 @@ h2 {
 }
 
 aside {
-    background: linear-gradient(40deg, rgb(225, 223, 223), rgb(205, 240, 247));
+    background: linear-gradient(145deg, #e6713b, #e6a10d);;
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
