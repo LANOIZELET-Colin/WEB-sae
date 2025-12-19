@@ -184,3 +184,13 @@ background: linear-gradient(145deg, #e6713b, #e6a10d);
   transform: scale(1.1);
   transition: 0.5s;
 }
+
+#filtres{
+  border: solid 0.5px rgb(216, 193, 239);
+  display: block;
+  margin: 1% auto;
+  margin-top: 25px;
+  background-color: #f4f9fa;
+  padding: 10px;
+  border-radius: 10px;
+}

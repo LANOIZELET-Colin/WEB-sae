@@ -20,14 +20,14 @@
     <h2>Filtres :</h2>
   
        <label for="date" class="label">Date dem début</label>
-        <input id="date" class="input" type="date" title="Entré la date du début de la location" required>
+        <input id="date" class="input" type="date" title="Entré la date du début de la location">
         
         <label for="date" class="label">Date de fin</label>
-        <input id="date" class="input" type="date" title="Entré la date de la fin de la location" required>
+        <input id="date" class="input" type="date" title="Entré la date de la fin de la location">
       
 
     <label for="marque" class="label">Marque</label>
-    <input list="marques" class="input" title="choisissez une Marque" placeholder="Rechercher une Marque" required>
+    <input list="marques" class="input" title="choisissez une Marque" placeholder="Rechercher une Marque">
       <datalist id="marques">
         <option value="Peugeot">
         <option value="Dacia">
@@ -38,7 +38,7 @@
   
   
     <label for="typevehicule" class="label">Type Véhicule</label>
-    <input list="typevehicule" class="input" title="choisissez un Type de véhicule" placeholder="Rechercher un Type" required>
+    <input list="typevehicule" class="input" title="choisissez un Type de véhicule" placeholder="Rechercher un Type">
     <datalist id="typevehicule">
       <option value="Voiture électrique"></option>
       <option value="Voiture essence"></option>
@@ -50,7 +50,7 @@
     </datalist>
 
     <label for="rix" class="label">Prix/jour</label>
-    <input list="prix" class="input" title="choisissez un intervalle de Prix" placeholder="Rechercher un Prix" required>
+    <input list="prix" class="input" title="choisissez un intervalle de Prix" placeholder="Rechercher un Prix">
     <datalist id="prix">
       <option value="entre 0€ et 10€"></option>
       <option value="entre 10€ et 20€"></option>
@@ -58,7 +58,7 @@
       <option value="entre 30€ et 40€"></option>
       <option value="entre 40€ et 50€"></option>
     </datalist>
-
+    <button id="filtres"> Appliquer les filtres</button>
 
       <p>-----</p>
       <p>Cliquer sur les proposition pour en savoir plus puis les réserver</p>
