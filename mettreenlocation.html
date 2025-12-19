@@ -33,12 +33,31 @@
     </section>
     <section>
         <aside id="infos">
-            <select> 
-                <option>-- Choisissez un véhicule --</option>
-                <option>Trotinette</option>
-                <option>Scooter</option>
-                <option>Voiture</option>
-            </select>
+            <h2> Ajoutez les descriptions du véhicule</h2>
+            <label for="typevéhicule" class="label">Type de véhicule</label>
+            <input list="véhicule" id="typevéhicule" title="Choisissez un type de véhicule" class="input" placeholder="Rechercher un type" required>
+            <datalist id="véhicule">
+                <option value="Voiture électrique"></option>
+                <option value="Voiture essence"></option>
+                <option value="Voiture hybride"></option>
+                <option value="Trotinette électrique"></option>
+                <option value="Vélo"></option>
+                <option value="Vélo électrique"></option>
+            </datalist> 
+            <label for="marque" class="label">Marques</label>
+            <input list="marques" id="Marques" title="Choisissez une marque" class="input" placeholder="Rechercher une marque">
+            <datalist id="marques">
+                <option value="Paugeot"></option>
+                <option value="Dacia"></option>
+                <option value="Opel"></option>
+                <option value="Renault"></option>
+                <option value="Citroën"></option>
+            </datalist>
+            <label class="label">prix</label>
+            <input class="input" type="prix" id="nombre" required>
+            <label class="label">Image du véhicules</label>
+            <input class="label" id="fichier" type="file" required>
+
         </aside>
     </section>
     <button class="bouton">Se connecter</button>
