@@ -11,6 +11,14 @@
   box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
+p{
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
 
 .filtres h2 {
   text-align: center;
@@ -28,7 +36,7 @@
   margin: 10px auto;
   background-color: #f4f9fa;
   padding: 10px;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .input:hover{
@@ -36,8 +44,11 @@
   transition: 0.5s;
 }
 
+aside p{
+  text-align: center;
+}
 
-aside>label{
+.filtres>label{
     display: block;
     flex-direction: column;
 }
