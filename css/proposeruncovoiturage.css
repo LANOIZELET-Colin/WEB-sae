@@ -19,7 +19,6 @@ input{
 }
 
 
-
 .filtres {
   width: 100%;
   max-width: 400px;
@@ -106,13 +105,22 @@ div{
   justify-content: center;
 }
 
-button{
-  padding: 1.5%;
-  background-color: cornflowerblue;
-  border: #aaa;
-  border-radius: 30px;
-  margin-top: 3%;
+bouton {
+    display: block;
+    margin: 50px auto;
+    padding: 15px 40px;
+    font-size: 1.2rem;
+    border-radius: 12px;
+    border: 2px solid #333;
+    background: white;
+    cursor: pointer;
+    padding: 1.5%;
+    background-color: cornflowerblue;
+    border: #aaa;
+    border-radius: 20px;
+    margin-top: 3%;
 }
+
 
 button:hover{
   background-color: rgb(55, 106, 195);
